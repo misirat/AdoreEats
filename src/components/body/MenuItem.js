@@ -6,15 +6,15 @@ const MenuItem = props => {
     return (
         <div>
             <div>
-                <Card inverse>
+                <Card style={{ margin: '10px' }}>
                     <CardImg
                         alt={props.dish.name}
                         src={props.dish.image}
                         width="100%"
-                        style={{ opacity: "0.7" }}
+                        style={{ opacity: "0.5" }}
                     />
                     <CardImgOverlay>
-                        <CardTitle tag="h4" style={{ color: 'black', fontFamily: 'Tahoma', WebkitTextStroke: '1px purple' }}>
+                        <CardTitle tag="h4" onClick={props.onDishSelect} style={{ color: 'black', fontFamily: 'Tahoma', WebkitTextStroke: '1px purple', cursor: 'pointer' }}>
                             {props.dish.name}
                         </CardTitle>
                     </CardImgOverlay>
