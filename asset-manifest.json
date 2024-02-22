@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AdoreEats/static/css/main.2892af0c.css",
+    "main.js": "/AdoreEats/static/js/main.a3cd3c65.js",
+    "static/js/787.2231e10f.chunk.js": "/AdoreEats/static/js/787.2231e10f.chunk.js",
+    "index.html": "/AdoreEats/index.html",
+    "main.2892af0c.css.map": "/AdoreEats/static/css/main.2892af0c.css.map",
+    "main.a3cd3c65.js.map": "/AdoreEats/static/js/main.a3cd3c65.js.map",
+    "787.2231e10f.chunk.js.map": "/AdoreEats/static/js/787.2231e10f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2892af0c.css",
+    "static/js/main.a3cd3c65.js"
+  ]
+}
